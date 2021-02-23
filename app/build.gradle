@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.wtrwx.QRDialog"
+        applicationId "com.wtrwx.qrdialog"
         minSdkVersion 19
         targetSdkVersion 23
         versionCode 1

@@ -1,4 +1,4 @@
-package com.wtrwx.QRDialog;
+package com.wtrwx.qrdialog;
 import android.content.Context;
 import android.app.Dialog;
 import android.widget.ImageView;
@@ -15,6 +15,7 @@ import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
+import android.view.WindowManager;
 
 public class QRDialog {
     public static void show(Context context,String url){
